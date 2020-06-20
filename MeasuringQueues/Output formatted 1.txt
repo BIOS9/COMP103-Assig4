@@ -1,0 +1,73 @@
+Table of time taken for each algorithm in relation to item count (Times are in seconds)
+Item count	PQ	AL End		AL Start
+1,000		0.072	1.471		1.468
+2,000		0.048	2.471		2.990
+4,000		0.052	5.888		6.614
+8,000		0.069	13.131		15.898
+16,000		0.080	23.406		26.256
+32,000		0.075	49.360		54.976
+64,000		0.091	98.307		119.529
+128,000		0.123	212.704		288.618
+256,000		0.187	815.969		1,011.783
+512,000		0.339	2,510.243	4,681.318
+1,024,000	0.807	8,235.953	10,477.096
+
+There is a graph named Graph.PNG
+
+
+Formatted program output (Times are in milliseconds)
+
+Item count: 1000
+Priority Queue: 72
+Array List End: 1471
+Array List Start: 1468
+
+Item count: 2000
+Priority Queue: 48
+Array List End: 2471
+Array List Start: 2990
+
+Item count: 4000
+Priority Queue: 52
+Array List End: 5888
+Array List Start: 6614
+
+Item count: 8000
+Priority Queue: 69
+Array List End: 13131
+Array List Start: 15898
+
+Item count: 16000
+Priority Queue: 80
+Array List End: 23406
+Array List Start: 26256
+
+Item count: 32000
+Priority Queue: 75
+Array List End: 49360
+Array List Start: 54976
+
+Item count: 64000
+Priority Queue: 91
+Array List End: 98307
+Array List Start: 119529
+
+Item count: 128000
+Priority Queue: 123
+Array List End: 212704
+Array List Start: 288618
+
+Item count: 256000
+Priority Queue: 187
+Array List End: 815969
+Array List Start: 1011783
+
+Item count: 512000
+Priority Queue: 339
+Array List End: 2510243
+Array List Start: 4681318
+
+Item count: 1024000
+Priority Queue: 807
+Array List End: 8235953
+Array List Start: 10477096

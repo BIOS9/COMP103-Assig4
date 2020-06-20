@@ -1,0 +1,54 @@
+
+Let c = iteration count = 100,000
+
+Priority Queue:				Complexity:	Times:		Resulting complexity:
+intialise queue with n Patients		O(n)  		1  		O(n)
+repeat c times:		
+  dequeue a Patient from queue		O(log n)	c		O(c log n)
+  enqueue new Patient on queue		O(log n)	c		O(c log n)
+
+The queue initialisation is ignored, meaning the cost is O(2c log n), 2c is constant so the resulting time complexity for this algorithm is O(log n)
+
+
+ArrayList, head at front:		Complexity:	Times:		Resulting complexity:
+intialise list with n Patients		O(n)		1		O(n)
+sort list				O(n log n)	1		O(n log n)
+repeat c times:
+  remove Patient from list(0)		O(n)		c		O(cn)
+  add new Patient to list		O(1)		c		O(c)
+  sort list				O(n) 		c		O(cn)
+
+The largest cost in this algorithm excluding the list initialisation is the first sort of the unsorted list. O(n log n), subsequent sorts will be much faster with only one item out of order O(n).
+The total cost of the repeated loop is O(2cn) + O(1), the constants can be ignored and we get O(n) which is still smaller than O(n log n)
+
+
+ArrayList, head at end:			Complexity:	Times:		Resulting complexity:
+intialise list with n Patients		O(n)		1		O(n)
+sort list in reverse order		O(n log n)	1		O(n log n)
+repeat c times:
+  remove Patient from end of list	O(1)		c		O(c)
+  add new Patient to list        	O(1)		c		O(c)
+  sort list in reverse order		O(n)		c		O(cn)
+
+The same applies for this algorithm over the last one
+
+
+1000:
+PQ: 53
+ALEnd: 1554
+ALStart: 1667
+
+2000:
+PQ: 72
+ALEnd: 2790
+ALStart: 2893
+
+4000:
+PQ: 71
+ALEnd: 5995
+ALStart: 5328
+
+1024000:
+PQ: 486
+ALEnd: 6638695 (1 hour 50 minutes)
+ALStart: 7273151 (2 hours)

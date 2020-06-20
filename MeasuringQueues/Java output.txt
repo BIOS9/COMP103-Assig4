@@ -1,0 +1,87 @@
+Item count: 1000
+======== Testing useQueuesPQ ============
+72
+======== Testing useQueuesALEnd ============
+1471
+======== Testing useQueuesALStart ============
+1468
+
+Item count: 2000
+======== Testing useQueuesPQ ============
+48
+======== Testing useQueuesALEnd ============
+2471
+======== Testing useQueuesALStart ============
+2990
+
+Item count: 4000
+======== Testing useQueuesPQ ============
+52
+======== Testing useQueuesALEnd ============
+5888
+======== Testing useQueuesALStart ============
+6614
+
+Item count: 8000
+======== Testing useQueuesPQ ============
+69
+======== Testing useQueuesALEnd ============
+13131
+======== Testing useQueuesALStart ============
+15898
+
+Item count: 16000
+======== Testing useQueuesPQ ============
+80
+======== Testing useQueuesALEnd ============
+23406
+======== Testing useQueuesALStart ============
+26256
+
+Item count: 32000
+======== Testing useQueuesPQ ============
+75
+======== Testing useQueuesALEnd ============
+49360
+======== Testing useQueuesALStart ============
+54976
+
+Item count: 64000
+======== Testing useQueuesPQ ============
+91
+======== Testing useQueuesALEnd ============
+98307
+======== Testing useQueuesALStart ============
+119529
+
+Item count: 128000
+======== Testing useQueuesPQ ============
+123
+======== Testing useQueuesALEnd ============
+212704
+======== Testing useQueuesALStart ============
+288618
+
+Item count: 256000
+======== Testing useQueuesPQ ============
+187
+======== Testing useQueuesALEnd ============
+815969
+======== Testing useQueuesALStart ============
+1011783
+
+Item count: 512000
+======== Testing useQueuesPQ ============
+339
+======== Testing useQueuesALEnd ============
+2510243
+======== Testing useQueuesALStart ============
+4681318
+
+Item count: 1024000
+======== Testing useQueuesPQ ============
+807
+======== Testing useQueuesALEnd ============
+8235953
+======== Testing useQueuesALStart ============
+10477096
